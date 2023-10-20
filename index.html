@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" media="(max-width: 500px)" href="mobile.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kosugi+Maru">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
     <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">  
     <title>Hestia</title>
 </head>
 <body>
@@ -19,6 +23,7 @@
         <p id="bot-sub" class="sub-id">for as little as $5</p>
     </div>
     <div id="filler1"></div>
+    <p id = "alerts"></p>
     <div id="form">
         <form>
             <input id ="email-input" type="email" name="email" onBlur="if (this.placeholder=='') this.placeholder = 'Jane@Doe.com'" onfocus="if (this.placeholder=='Jane@Doe.com') this.placeholder = ''" placeholder="Jane@Doe.com">
@@ -27,5 +32,5 @@
     <div id="button">
         <button id="submit" onclick="onClick()">Sign up<br>for alerts</button>
     </div>
+    </html>
 </body>
-</html>

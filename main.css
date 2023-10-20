@@ -1,11 +1,6 @@
 @font-face{
-    font-family: "Konisberg";
-    src: url('fonts/K”nigsberg\ Demo.otf')
+    font-family:'Kosugi Maru';
 
-}
-@font-face {
-    font-family: "Kosugi";
-    src: url('fonts/Kosugi-Regular.ttf');
 }
 
 
@@ -27,7 +22,7 @@ body{
 }
 
 .subtitle{
-    font-family: 'Kosugi';
+    font-family: 'Kosugi Maru';
     font-size: 2.3vmax;
 }
 
@@ -46,7 +41,7 @@ body{
 }
 
 #filler1{
-    height: 15vh;
+    height: 11vh;
 }
 #form{
     align-items: center;
@@ -61,7 +56,7 @@ input[type=email]{
     background-color: #424242;
     box-shadow: inset 0px 7px 10px -5px #000000;
     border: transparent;
-    font-family: 'Kosugi';
+    font-family: 'Kosugi Maru';
     text-align: center;
     font-size: 1.5vmax;
     color: #FFFFFF;
@@ -69,7 +64,7 @@ input[type=email]{
 }
 
 input::placeholder{
-    font-family: 'Kosugi';
+    font-family: 'Kosugi Maru';
     text-align: center;
     font-size: 1.5vmax;
     color: #FFFFFF;
@@ -90,7 +85,7 @@ button{
     box-shadow: 0px 7px 10px -5px #000000;
     border: transparent;
     color: #424242;
-    font-family: 'Kosugi';
+    font-family: 'Kosugi Maru';
     font-size: 1.8vmax;
     text-shadow: 0px 0px 20px 0px #000000;
 }
@@ -98,6 +93,16 @@ button{
 button:active{
     box-shadow: inset 0px 0px 20px 3px #000000;
     
+}
+
+#alerts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vmax;
+    margin: 0vh 0vw 2vh 0vw;
+    font-family: 'Kosugi Maru';
+    color: #f72c1e;
 }
 
 
